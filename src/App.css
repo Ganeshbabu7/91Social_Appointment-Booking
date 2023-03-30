@@ -12,3 +12,10 @@ body{
 .wrapper{
     display: flex;
 }
+
+/* .react-time-picker__wrapper {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+    border: none;
+} */
