@@ -86,7 +86,7 @@ function CreateAppointment() {
         <div> 
             { timeRecommed ? 
                 (<div className='text-red-500 visible mb-3  font-semibold'>
-                    * Consider Your Existing Meeting Timings, before select time : <span className='bg-yellow-300 rounded-full px-3 py-1'>{recommeded}</span>
+                    * Consider your existing session times, before selecting the time : <span className='bg-yellow-300 rounded-full px-3 py-1'>{recommeded}</span>
                 </div>) : null
             }
         </div>

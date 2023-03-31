@@ -21,13 +21,13 @@ function CalendarView() {
         let startTime = events1[i].startTime
         let endTime = events1[i].endTime
 
-        let object1 = {
+        let eventObject = {
           id : index,
           title : title,
-          start : moment(`${date} ${startTime}`).format('YYYY-MM-DD h:mm'),
-          end : moment(`${date} ${endTime}`).format('YYYY-MM-DD h:mm')
+          start : moment(`${date} ${startTime}`).toDate(),
+          end : moment(`${date} ${endTime}`).toDate()
         }
-        eventArray.push(object1)
+        eventArray.push(eventObject)
         setEvent(eventArray)
       }
     }

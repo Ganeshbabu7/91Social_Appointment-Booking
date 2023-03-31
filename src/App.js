@@ -11,7 +11,7 @@ function App() {
       <Route path='createappointment' element={<CreateAppointment/>} />
       <Route path='listview' element={<List/>} />
       <Route path='calendarview' element={<CalendarView/>} />
-      <Route path='*' element={<Navigate to='listview'/>} />
+      <Route path='*' element={<Navigate to='createappointment'/>} />
     </Routes>
   </BrowserRouter>
   </>;
